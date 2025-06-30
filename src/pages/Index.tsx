@@ -5,7 +5,7 @@ import FloatingButtons from '@/components/FloatingButtons';
 import TransactionHistory from '@/components/TransactionHistory';
 import BottomNavigation from '@/components/BottomNavigation';
 import TransactionModal from '@/components/TransactionModal';
-import SimpleChart from '@/components/SimpleChart';
+import LineChart from '@/components/LineChart';
 import { useToast } from '@/hooks/use-toast';
 
 interface Transaction {
@@ -125,7 +125,7 @@ const Index = () => {
       case 'reports':
         return (
           <div className="space-y-6 pb-24">
-            <SimpleChart 
+            <LineChart 
               data={getChartData()} 
               title="Ingresos de los últimos 7 días"
             />

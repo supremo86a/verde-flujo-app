@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -62,9 +63,9 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Mexlucky brand colors
+				// Mexlucky brand colors - making green darker
 				mexlucky: {
-					green: '#2ECC71',
+					green: '#1B5E20',
 					dark: '#222222',
 					bright: '#00FF7F',
 					light: '#F5F5F5'
@@ -137,7 +138,7 @@ export default {
 				'counter': 'counter 0.3s ease-out'
 			},
 			backgroundImage: {
-				'mexlucky-gradient': 'linear-gradient(135deg, #2ECC71 0%, #00FF7F 100%)',
+				'mexlucky-gradient': 'linear-gradient(135deg, #1B5E20 0%, #2E7D32 100%)',
 				'dark-gradient': 'linear-gradient(135deg, #222222 0%, #333333 100%)',
 				'blue-gradient': 'linear-gradient(135deg, #3B82F6 0%, #1E40AF 100%)'
 			}
