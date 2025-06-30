@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -139,7 +138,8 @@ export default {
 			},
 			backgroundImage: {
 				'mexlucky-gradient': 'linear-gradient(135deg, #2ECC71 0%, #00FF7F 100%)',
-				'dark-gradient': 'linear-gradient(135deg, #222222 0%, #333333 100%)'
+				'dark-gradient': 'linear-gradient(135deg, #222222 0%, #333333 100%)',
+				'blue-gradient': 'linear-gradient(135deg, #3B82F6 0%, #1E40AF 100%)'
 			}
 		}
 	},

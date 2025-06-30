@@ -9,7 +9,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 245 245 245;
+    --background: 220 100% 95%;
     --foreground: 34 34 34;
 
     --card: 0 0% 100%;
@@ -95,14 +95,14 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-blue-gradient text-foreground font-sans;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   }
 }
 
 @layer utilities {
   .mobile-container {
-    @apply max-w-sm mx-auto min-h-screen bg-background;
+    @apply max-w-sm mx-auto min-h-screen bg-blue-gradient;
   }
   
   .glass-card {
