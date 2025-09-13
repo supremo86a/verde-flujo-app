@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import BalanceCard from '@/components/BalanceCard';
 import FloatingButtons from '@/components/FloatingButtons';

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card } from '@/components/ui/card';
 import { Home, ClipboardList, BarChart } from 'lucide-react';
